@@ -62,7 +62,7 @@ This project is perfect for beginner and intermediate developers who want to enh
    - Clone or download this repository and place it in the `htdocs` directory of your XAMPP installation.
    
 3. Database Setup:
-   - Import the provided SQL file (`database.sql`) into your MySQL database using phpMyAdmin or a MySQL client.
+   - Import the provided SQL file (`crud_php.sql`) into your MySQL database using phpMyAdmin or a MySQL client.
    
 4. Access the Project:
    - Open a web browser and navigate to `http://localhost/your-project-directory`.
