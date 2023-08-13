@@ -27,7 +27,7 @@
               <?php
               $sql2 = "SELECT * FROM studentclass";
               $result1 = mysqli_query($conn, $sql2) or die("Query Unsuccessful");
-              if(mysqli_num_rows($result)>0){
+              if(mysqli_num_rows($result1)>0){
                 while($row1 = mysqli_fetch_assoc($result1)){
                     if($row['sclass']==$row1['cid']){
                         $selected = "selected";
